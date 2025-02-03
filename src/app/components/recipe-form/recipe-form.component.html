@@ -1,0 +1,66 @@
+<div class="flex justify-center items-center min-h-screen p-4">
+  <div class="w-3/4">
+    <h2 class="text-2xl font-semibold text-gray-800 text-center mb-2 {{ isEditMode ? 'text-blue-600' : 'text-green-600' }}">
+      {{ isEditMode ? 'Edit Recipe' : 'Add Recipe' }}
+    </h2>
+
+    <form [formGroup]="recipeForm" (ngSubmit)="submit()" class="space-y-4">
+      <div class="flex flex-col space-y-2">
+        <label for="title">Recipe Name</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <input matInput formControlName="title" id="title" />
+          <mat-error *ngIf="recipeForm.get('title')?.invalid">Recipe Name is required</mat-error>
+        </mat-form-field>
+
+        <label for="description">Recipe Desciption</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <textarea matInput formControlName="description" id="description"></textarea>
+          <mat-error *ngIf="recipeForm.get('description')?.invalid">Recipe Description is required</mat-error>
+        </mat-form-field>
+
+        <label for="imageUrl">Recipe Thumbnail</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <input matInput formControlName="imageUrl" id="imageUrl" />
+          <mat-error *ngIf="recipeForm.get('imageUrl')?.invalid">Image Url required</mat-error>
+        </mat-form-field>
+
+        <label for="instructions">Recipe Instruction</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <textarea matInput formControlName="instructions" id="instructions"></textarea>
+          <mat-error *ngIf="recipeForm.get('instructions')?.invalid">Recipe Instructions is required</mat-error>
+        </mat-form-field>
+
+        <label for="difficulty">Difficulty</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-select formControlName="difficulty" id="difficulty">
+            <mat-option value="Easy">Easy</mat-option>
+            <mat-option value="Hard">Hard</mat-option>
+          </mat-select>
+          <mat-error *ngIf="recipeForm.get('difficulty')?.invalid">Recipe Difficulty is required</mat-error>
+        </mat-form-field>
+
+        <label for="difficulty">Difficulty</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-select formControlName="difficulty" id="difficulty">
+            <mat-option value="easy">Easy</mat-option>
+            <mat-option value="hard">Hard</mat-option>
+          </mat-select>
+          <mat-error *ngIf="recipeForm.get('difficulty')?.invalid">Recipe Difficulty is required</mat-error>
+        </mat-form-field>
+
+        <label for="cookingTime">Cooking Time</label>
+        <mat-form-field appearance="outline" class="w-full">
+          <input matInput type="number" formControlName="cookingTime" id="cookingTime" />
+          <mat-error *ngIf="recipeForm.get('cookingTime')?.invalid">Recipe Cooking Time is required</mat-error>
+        </mat-form-field>
+
+        <div class="flex justify-between space-x-4">
+          <button mat-button (click)="goBack()" class="bg-gray-300 px-4 py-2 rounded">Cancel</button>
+          <button mat-raised-button color="primary" [disabled]="recipeForm.invalid" class="px-4 py-2 rounded">
+            {{ isEditMode ? 'Update' : 'Save' }}
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

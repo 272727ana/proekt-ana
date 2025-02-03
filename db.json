@@ -1,0 +1,383 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        { "name": "Spaghetti", "quantity": "200g" },
+        { "name": "Egg yolks", "quantity": "2" },
+        { "name": "Parmesan cheese", "quantity": "50g" },
+        { "name": "Pancetta", "quantity": "100g" },
+        { "name": "Black pepper", "quantity": "1 tsp" }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "In a bowl, mix egg yolks and grated Parmesan cheese.",
+        "Fry pancetta until crispy.",
+        "Combine spaghetti with pancetta and egg mixture, tossing quickly.",
+        "Serve with extra cheese and black pepper."
+      ],
+      "cookingTime": 20,
+      "difficulty": "Easy",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+      "category": "Italian",
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "title": "Chicken Curry",
+      "description": "A flavorful and spicy Indian chicken curry.",
+      "ingredients": [
+        { "name": "Chicken", "quantity": "500g" },
+        { "name": "Onion", "quantity": "1 large" },
+        { "name": "Garlic", "quantity": "3 cloves" },
+        { "name": "Tomatoes", "quantity": "2" },
+        { "name": "Curry powder", "quantity": "2 tbsp" }
+      ],
+      "instructions": [
+        "Sauté onions and garlic in a pan until golden brown.",
+        "Add diced tomatoes and cook until soft.",
+        "Stir in curry powder and cook for 1 minute.",
+        "Add chicken pieces and cook until browned.",
+        "Pour in water and simmer until chicken is tender."
+      ],
+      "cookingTime": 40,
+      "difficulty": "Medium",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+      "category": "Indian",
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "Beef Tacos",
+      "description": "Mexican-style beef tacos with fresh toppings.",
+      "ingredients": [
+        { "name": "Ground beef", "quantity": "300g" },
+        { "name": "Taco shells", "quantity": "6" },
+        { "name": "Lettuce", "quantity": "1 cup" },
+        { "name": "Cheese", "quantity": "50g" },
+        { "name": "Salsa", "quantity": "2 tbsp" }
+      ],
+      "instructions": [
+        "Cook ground beef with spices.",
+        "Fill taco shells with beef, lettuce, and cheese.",
+        "Top with salsa and serve."
+      ],
+      "cookingTime": 25,
+      "difficulty": "Easy",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+      "category": "Mexican",
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "title": "Grilled Salmon",
+      "description": "Perfectly grilled salmon with lemon butter sauce.",
+      "ingredients": [
+        { "name": "Salmon fillet", "quantity": "1" },
+        { "name": "Lemon", "quantity": "1" },
+        { "name": "Butter", "quantity": "2 tbsp" },
+        { "name": "Garlic", "quantity": "1 clove" },
+        { "name": "Salt & Pepper", "quantity": "to taste" }
+      ],
+      "instructions": [
+        "Season salmon with salt, pepper, and garlic.",
+        "Grill for 6-8 minutes per side.",
+        "Melt butter with lemon juice and pour over salmon."
+      ],
+      "cookingTime": 30,
+      "difficulty": "Medium",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+      "category": "Seafood",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "title": "Vegetable Stir Fry",
+      "description": "Quick and healthy stir-fried vegetables with soy sauce.",
+      "ingredients": [
+        { "name": "Broccoli", "quantity": "1 cup" },
+        { "name": "Carrots", "quantity": "1/2 cup" },
+        { "name": "Bell pepper", "quantity": "1" },
+        { "name": "Soy sauce", "quantity": "2 tbsp" },
+        { "name": "Garlic", "quantity": "1 clove" }
+      ],
+      "instructions": [
+        "Chop vegetables into bite-sized pieces.",
+        "Heat oil in a pan and sauté garlic.",
+        "Add vegetables and stir-fry for 5 minutes.",
+        "Add soy sauce and cook for another 2 minutes."
+      ],
+      "cookingTime": 15,
+      "difficulty": "Easy",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wqurxy1511453156.jpg",
+      "category": "Asian",
+      "favorite": true
+    },
+    {
+      "id": 6,
+      "title": "Margherita Pizza",
+      "description": "Classic pizza with tomato, mozzarella, and basil.",
+      "ingredients": [
+        { "name": "Pizza dough", "quantity": "1" },
+        { "name": "Tomato sauce", "quantity": "1/2 cup" },
+        { "name": "Mozzarella cheese", "quantity": "100g" },
+        { "name": "Fresh basil", "quantity": "10 leaves" },
+        { "name": "Olive oil", "quantity": "1 tbsp" }
+      ],
+      "instructions": [
+        "Preheat oven to 220°C.",
+        "Spread tomato sauce over pizza dough.",
+        "Top with mozzarella and basil.",
+        "Bake for 10-12 minutes until golden brown."
+      ],
+      "cookingTime": 20,
+      "difficulty": "Medium",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
+      "category": "Italian",
+      "favorite": false
+    },
+    {
+      "id": 7,
+      "title": "Omelette",
+      "description": "Fluffy omelette with cheese and herbs.",
+      "ingredients": [
+        { "name": "Eggs", "quantity": "3" },
+        { "name": "Cheese", "quantity": "50g" },
+        { "name": "Milk", "quantity": "2 tbsp" },
+        { "name": "Salt & Pepper", "quantity": "to taste" }
+      ],
+      "instructions": [
+        "Beat eggs with milk, salt, and pepper.",
+        "Heat a pan and pour in the egg mixture.",
+        "Cook until set, then add cheese and fold."
+      ],
+      "cookingTime": 10,
+      "difficulty": "Easy",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg",
+      "category": "Breakfast",
+      "favorite": true
+    },
+    {
+      "id": 8,
+      "title": "Caesar Salad",
+      "description": "Classic salad with lettuce, croutons, and Caesar dressing.",
+      "ingredients": [
+        { "name": "Romaine lettuce", "quantity": "2 cups" },
+        { "name": "Croutons", "quantity": "1/2 cup" },
+        { "name": "Parmesan cheese", "quantity": "30g" },
+        { "name": "Caesar dressing", "quantity": "2 tbsp" }
+      ],
+      "instructions": [
+        "Chop lettuce and mix with croutons.",
+        "Add Caesar dressing and toss well.",
+        "Top with Parmesan cheese and serve."
+      ],
+      "cookingTime": 10,
+      "difficulty": "Easy",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
+      "category": "Salad",
+      "favorite": true
+    }
+  ],
+"mealPlans": [
+  {
+    "id": 1,
+    "day": "Monday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 2, "recipeTitle": "Chicken Curry" },
+      "dinner": { "recipeId": 1, "recipeTitle": "Spaghetti Carbonara" }
+    }
+  },
+  {
+    "id": 2,
+    "day": "Tuesday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 3, "recipeTitle": "Beef Tacos" },
+      "dinner": { "recipeId": 4, "recipeTitle": "Grilled Salmon" }
+    }
+  },
+  {
+    "id": 3,
+    "day": "Wednesday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 5, "recipeTitle": "Vegetable Stir Fry" },
+      "dinner": { "recipeId": 6, "recipeTitle": "Margherita Pizza" }
+    }
+  },
+  {
+    "id": 4,
+    "day": "Thursday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 8, "recipeTitle": "Caesar Salad" },
+      "dinner": { "recipeId": 3, "recipeTitle": "Beef Tacos" }
+    }
+  },
+  {
+    "id": 5,
+    "day": "Friday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 1, "recipeTitle": "Spaghetti Carbonara" },
+      "dinner": { "recipeId": 2, "recipeTitle": "Chicken Curry" }
+    }
+  },
+  {
+    "id": 6,
+    "day": "Saturday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 4, "recipeTitle": "Grilled Salmon" },
+      "dinner": { "recipeId": 5, "recipeTitle": "Vegetable Stir Fry" }
+    }
+  },
+  {
+    "id": 7,
+    "day": "Sunday",
+    "meals": {
+      "breakfast": { "recipeId": 7, "recipeTitle": "Omelette" },
+      "lunch": { "recipeId": 6, "recipeTitle": "Margherita Pizza" },
+      "dinner": { "recipeId": 8, "recipeTitle": "Caesar Salad" }
+    }
+  }
+],
+  "shoppingList": [
+    {
+      "id": 1,
+      "ingredient": "Eggs",
+      "quantity": "21",
+      "purchased": false
+    },
+    {
+      "id": 2,
+      "ingredient": "Cheese",
+      "quantity": "250g",
+      "purchased": false
+    },
+    {
+      "id": 3,
+      "ingredient": "Garlic",
+      "quantity": "5 cloves",
+      "purchased": false
+    },
+    {
+      "id": 4,
+      "ingredient": "Ground beef",
+      "quantity": "300g",
+      "purchased": false
+    },
+    {
+      "id": 5,
+      "ingredient": "Taco shells",
+      "quantity": "6",
+      "purchased": false
+    },
+    {
+      "id": 6,
+      "ingredient": "Lettuce",
+      "quantity": "2 cups",
+      "purchased": false
+    },
+    {
+      "id": 7,
+      "ingredient": "Tomato sauce",
+      "quantity": "1/2 cup",
+      "purchased": false
+    },
+    {
+      "id": 8,
+      "ingredient": "Pancetta",
+      "quantity": "100g",
+      "purchased": false
+    },
+    {
+      "id": 9,
+      "ingredient": "Spaghetti",
+      "quantity": "200g",
+      "purchased": false
+    },
+    {
+      "id": 10,
+      "ingredient": "Parmesan cheese",
+      "quantity": "80g",
+      "purchased": false
+    },
+    {
+      "id": 11,
+      "ingredient": "Olive oil",
+      "quantity": "1 tbsp",
+      "purchased": false
+    },
+    {
+      "id": 12,
+      "ingredient": "Bell pepper",
+      "quantity": "1",
+      "purchased": false
+    },
+    {
+      "id": 13,
+      "ingredient": "Soy sauce",
+      "quantity": "2 tbsp",
+      "purchased": false
+    },
+    {
+      "id": 14,
+      "ingredient": "Chicken",
+      "quantity": "500g",
+      "purchased": false
+    },
+    {
+      "id": 15,
+      "ingredient": "Curry powder",
+      "quantity": "2 tbsp",
+      "purchased": false
+    },
+    {
+      "id": 16,
+      "ingredient": "Croutons",
+      "quantity": "1/2 cup",
+      "purchased": false
+    },
+    {
+      "id": 17,
+      "ingredient": "Caesar dressing",
+      "quantity": "2 tbsp",
+      "purchased": false
+    },
+    {
+      "id": 18,
+      "ingredient": "Romaine lettuce",
+      "quantity": "2 cups",
+      "purchased": false
+    },
+    {
+      "id": 19,
+      "ingredient": "Fresh basil",
+      "quantity": "10 leaves",
+      "purchased": false
+    },
+    {
+      "id": 20,
+      "ingredient": "Tomatoes",
+      "quantity": "2",
+      "purchased": false
+    }
+  ],
+  "ingredients": [
+    { "id": 1, "name": "Eggs" },
+    { "id": 2, "name": "Cheese" },
+    { "id": 3, "name": "Garlic" },
+    { "id": 4, "name": "Ground Beef" },
+    { "id": 5, "name": "Taco Shells" },
+    { "id": 6, "name": "Lettuce" },
+    { "id": 7, "name": "Tomato Sauce" },
+    { "id": 8, "name": "Pancetta" },
+    { "id": 9, "name": "Spaghetti" },
+    { "id": 10, "name": "Parmesan Cheese" }
+  ]
+}

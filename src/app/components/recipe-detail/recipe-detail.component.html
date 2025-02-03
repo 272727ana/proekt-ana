@@ -1,0 +1,42 @@
+<div class="flex flex-col">
+  <div class="flex justify-between items-center w-full">
+    <button class="flex items-center px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      [routerLink]="['/recipes']">
+      <span class="material-icons mr-2">arrow_back</span>
+    </button>
+    <h2 class="text-center w-full">Recipe Details</h2>
+  </div>
+  <div class="flex justify-center items-center space-y-4 flex-col">
+    <!-- Personal Information Card -->
+    <mat-card *ngIf="recipe" class="w-96 p-5 shadow-lg">
+      <mat-card-header>
+        <mat-card-title class="text-xl font-bold">{{ recipe.title }}</mat-card-title>
+        <mat-card-subtitle>Recipe ID: {{ recipe.id }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p><strong>Desciption:</strong> {{ recipe.description }}</p>
+        <p><strong>Cooking Time:</strong> {{ recipe.cookingTime }}</p>
+        <p><strong>Difficulty:</strong> {{ recipe.difficulty }}</p>
+        <img src=`${recipe.imageUrl}`/>
+      </mat-card-content>
+    </mat-card>
+
+    <div class="flex justify-between w-full">
+        <button class="flex items-center px-4 py-2 text-white bg-yellow-600 rounded-md hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+          [routerLink]="['/recipes', recipe?.id, 'edit']">
+          <span class="material-icons mr-2">edit</span>
+          Update
+        </button>
+
+
+        <button class="flex items-center px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-400"
+        >
+          <span class="material-icons mr-2">delete</span>
+          Delete
+        </button>
+    </div>
+
+    <div *ngIf="!recipe" class="text-center text-red-500">Recipe not found.</div>
+  </div>
+</div>

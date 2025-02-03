@@ -1,0 +1,22 @@
+<nav class="bg-gray-800 p-4">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <a routerLink="/" class="text-white text-2xl font-bold">
+      <h1>Recipe Management</h1>
+    </a>
+    <ul class="flex space-x-6">
+      @for (route of routes; track $index) {
+        <li>
+          <a [routerLink]="route.url" routerLinkActive="active" class="text-white hover:text-gray-400 transition duration-200">{{route.linkName}}</a>
+        </li>
+      }
+    </ul>
+  </div>
+</nav>
+
+<main class="main">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class=" bg-gray-800 p-4">
+  <p class="text-white text-center">&copy; 2025 Recipe Management App</p>
+</footer>
